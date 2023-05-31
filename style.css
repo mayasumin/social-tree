@@ -21,6 +21,7 @@ body {
 .perfil {
     display: flex;
     flex-direction: column;
+    gap: .625rem;
 }
 
 .perfil a {
@@ -54,4 +55,15 @@ body {
     border: 2px solid #bb99dd;
     border-radius: 4px;
     padding: .75rem 8.625rem .8125rem 8.8125rem;
+}
+
+.social {
+    width: 14.75rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil a:hover, .perfil a:focus, .link:hover, .link:focus, .svg:hover, .svg:focus {
+    transform: translateX(5px) scale(1.2);
 }
